@@ -1,0 +1,58 @@
+name: todo_app
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-182.1.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  #get_storage: ^2.0.3
+  get: ^4.6.5
+  flutter_local_notifications: ^9.6.1
+  flutter_native_timezone: ^2.0.0
+  intl: ^0.17.0
+  google_fonts: ^3.0.1
+  date_picker_timeline: 
+  sqflite: ^2.0.2+1
+  flutter_staggered_animations: ^1.0.0
+  flutter_svg: 
+  rxdart: ^0.27.4
+  shared_preferences: ^2.0.13
+  hexcolor: 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/images/
+
+  fonts:
+    - family: calibri
+      fonts:
+        - asset: assets/fonts/CALIBRIB.TTF
+        - asset: assets/fonts/calibrii.ttf
+          style: italic
+    - family: calibri
+      fonts:
+        - asset: assets/fonts/CALIBRIB.TTF
+        - asset: assets/fonts/calibrii.ttf
+          style: italic
+    - family: Cairo
+      fonts:
+      - asset: assets/fonts/Cairo-Regular.ttf
+  
